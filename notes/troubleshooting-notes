@@ -1,0 +1,15 @@
+# Troubleshooting Notes
+
+## PHP ZIP Extension
+Dolibarr installer showed that ZIP, Intl, and openssl support were missing. I enabled each extension in XAMPP's `php.ini` by removing semicolon 
+attached to each missing extension and restarted Apache.
+
+## PHP IMAP Extension
+Dolibarr showed IMAP support was missing. This was not required for the inventory/POS prototype because IMAP is mainly for email mailbox features, so I 
+left it as is.
+
+## install.lock
+After installation, I created an empty `install.lock` file in the Dolibarr documents directory to prevent the installer from running again.
+
+## TakePOS Warehouse Warning
+TakePOS showed "Stock change disabled / No warehouse defined for terminal." I fixed this by assigning the GS-MAIN warehouse to the TakePOS terminal.
