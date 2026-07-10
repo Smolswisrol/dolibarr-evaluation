@@ -1,0 +1,9 @@
+# Sample Products
+
+| Product | SKU | Barcode | Starting Stock | Demo Price |
+|---|---|---:|---:|---:|
+| Peach Cider Half Gallon | BF-CIDER-001 | BFCIDER001 | 24 | $7.99 |
+| Blackberry Jam | BF-JAM-001 | BFJAM001 | 18 | $6.99 |
+| Peach Salsa | BF-SALSA-001 | BFSALSA001 | 15 | $5.99 |
+| Pecan Pralines | BF-CANDY-001 | BFCANDY001 | 30 | $3.99 |
+| Local Honey Jar | BF-HONEY-001 | BFHONEY001 | 20 | $8.99 |
