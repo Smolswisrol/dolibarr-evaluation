@@ -1,0 +1,11 @@
+# Demo Test Steps
+
+1. Open Dolibarr locally at `http://localhost/dolibarr/htdocs`.
+2. Confirm Products, Stocks, Barcode, and TakePOS modules are enabled and configured.
+3. Open product `Peach Cider`.
+4. Confirm starting stock is 6 units in GS-MAIN warehouse.
+5. Open TakePOS.
+6. Add two Peach Ciders to the cart.
+7. Complete the sale.
+8. Return to the product stock screen.
+9. Confirm stock decreased from 6 to 4.
