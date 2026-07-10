@@ -1,0 +1,10 @@
+# Installation Notes
+
+- XAMPP already installed from previous assignments.
+- Started Apache and MySQL.
+- Downloaded Dolibarr stable package.
+- Placed Dolibarr files in `C:\xampp\htdocs\dolibarr`.
+- Created database named `dolibarr` in phpMyAdmin.
+- Used local URL `http://localhost/dolibarr/htdocs/install`.
+- Set documents directory to `C:\xampp\dolibarr_documents`.
+- Created `install.lock` after installation.
